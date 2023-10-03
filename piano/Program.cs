@@ -1,4 +1,4 @@
-﻿namespace Piano
+namespace Piano
 {
     class Program
     {
@@ -15,6 +15,10 @@
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Пианино");
+            Console.WriteLine("Переключение октав F2-F8");
+            Console.WriteLine("Играть Q,W,E,R,T,Y,U,I,O,P,K,L");
+
             while (true)
             {
                 ConsoleKeyInfo key = Console.ReadKey(true);
